@@ -34,7 +34,7 @@ const Navbar = () => {
               <div className="w-6 h-6 bg-white flex items-center justify-center">
                 <div className="w-4 h-4 bg-neutral-900"></div>
               </div>
-              <span className="ml-2 text-xl font-semibold">GreyMatter.</span>
+              <span className="ml-2 text-xl font-semibold">F1Gen.</span>
             </a>
           </div>
           <div className="hidden md:block">
