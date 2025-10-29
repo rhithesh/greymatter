@@ -52,8 +52,7 @@ const FAQSection = () => {
 
             <div className="mb-8 lg:mb-12">
               <p className="text-base sm:text-lg lg:text-xl text-gray-300 mb-6">
-              Need clarity? Our detailed FAQ section provides straightforward answers, whether you're a
-DeFi newcomer or a seasoned pro.
+              Need clarity? Our detailed FAQ section provides straightforward answers, whether you are  new or an existing user.
 
               </p>
               <button className="bg-white text-neutral-900 px-6 py-3 rounded-full text-base sm:text-lg font-semibold hover:bg-gray-200 transition-colors">
