@@ -14,13 +14,13 @@ const features = [
     cta: "Learn more",
     className: "col-span-3 lg:col-span-1",
     background: (
-      <Image src={"/dem1.png"} alt="" width={1920} height={1080} className="" />
+      <Image src={"/f1.avif"} alt="" width={1920} height={1080} className="" />
     ),
   },
   {
     Icon: CalendarIcon,
     name: "Backed by lot of trainning data",
-    description: "we aldready know that if A happens B is the result so we use that to predict future outcomes.",
+    description: "we aldready know that if A happens B ",
     href: "#",
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
@@ -47,7 +47,7 @@ const features = [
     href: "#",
     cta: "Learn more",
     background: (
-      <Image src={"/dem4.png"} alt="" width={1920} height={1080} className=" " />
+      <Image src={"/f1.avif"} alt="" width={1920} height={1080} className=" " />
     ),
   },
 ];
