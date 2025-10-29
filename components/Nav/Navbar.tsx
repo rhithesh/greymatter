@@ -39,21 +39,21 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              {navItems.map((item) => (
+              {/* {navItems.map((item) => (
                 <NavLink key={item.name} href={item.href}>
                   {item.name}
                 </NavLink>
-              ))}
+              ))} */}
             </div>
           </div>
           <div className="hidden md:block">
-            <motion.button
+            {/* <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-neutral-800 hover:bg-neutral-700 text-white font-medium py-2 px-4 rounded-md"
             >
               Create Account
-            </motion.button>
+            </motion.button> */}
           </div>
           <div className="md:hidden">
             <button

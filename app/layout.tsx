@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Grey Matter",
+  title: "F1 Gen",
   description: "Defi Cross-Chain aggregator",
 };
 

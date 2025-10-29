@@ -10,18 +10,18 @@ export function ThreeDCardDemo() {
     <CardContainer className="inter-var">
       <CardBody className="relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-gradient-to-tr from-neutral-800 to-neutral-950/30 border-white/[0.2]  w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem translateZ="50" className="text-xl font-bold  text-white">
-        Choose Your Chain
+        we know what it takes to win a race
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
           className="text-neutral-300 text-sm max-w-sm mt-2 "
         >
-        Powered By Wormhole for cross-chain token transfer & swaps
+         so we give you what is required to win it!
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
-            src="https://miro.medium.com/v2/resize:fit:1400/1*G2GfuvZyTXZZZ5PzqQOkEQ.png"
+            src="/f1.avif"
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"

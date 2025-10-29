@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import {
   FaTwitter,
@@ -9,9 +10,15 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 
-const GlassmorphicCard = ({ children, className }) => (
+const GlassmorphicCard = ({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) => (
   <div
-    className={`bg-neutral-800 bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg p-6 ${className}`}
+    className={`bg-neutral-800 bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg p-6 ${className ?? ""}`}
   >
     {children}
   </div>
@@ -37,20 +44,25 @@ const Footer = () => {
               transition={{ duration: 0.5 }}
             >
               <GlassmorphicCard>
-                <img src="/epic.png" alt="Webtrix" className="h-8 mb-6" />
+                <Image
+                  src="/f1.avif"
+                  alt="F1 Data Hub"
+                  width={128}
+                  height={32}
+                  className="h-8 mb-6"
+                />
                 <h2 className="text-2xl font-bold mb-4">
-                Get Started with Grey Matter – Your Smart Yield Solution
-                Why limit your yield?
+                  F1 Data Hub — Live Telemetry & Race Analytics
                 </h2>
                 <p className="mb-4 text-neutral-300 text-sm">
-                Grey Matter bridges the gap to higher returns across the blockchain
-landscape. Get started now and optimize your DeFi strategies.
-
+                  Live lap times, driver telemetry, constructor standings, circuit
+                  stats and historical race data — all in one place. Subscribe to
+                  get race-day alerts and dataset updates.
                 </p>
                 <form className="flex">
                   <input
                     type="email"
-                    placeholder="Enter Your Email"
+                    placeholder="Enter your email for F1 data alerts"
                     className="flex-grow bg-neutral-700 bg-opacity-50 rounded-l-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                   />
                   <button
@@ -68,40 +80,38 @@ landscape. Get started now and optimize your DeFi strategies.
             <GlassmorphicCard className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {[
                 {
-                  title: "Product",
+                  title: "Live Data",
                   links: [
-                    "Invest Your Future",
-                    "Find Our Stocks",
-                    "Find Our Crypto",
-                    "Earn Extra Money",
-                    "Bank Smarter",
+                    "Live Timing",
+                    "Telemetry Streams",
+                    "Sector Analysis",
+                    "Race Delta & Pitstop",
                   ],
                 },
                 {
-                  title: "Who We Are",
+                  title: "Teams & Drivers",
                   links: [
-                    "About Us",
-                    "Careers",
-                    "News And Media",
-                    "Financial Statement",
+                    "Driver Profiles",
+                    "Constructor Standings",
+                    "Team Radios",
+                    "Driver Pace Charts",
                   ],
                 },
                 {
-                  title: "Support",
+                  title: "Circuits",
                   links: [
-                    "FAQs",
-                    "Contacts",
-                    "Mobile",
-                    "Windows & Mac",
-                    "Desktop Version",
+                    "Circuit Maps",
+                    "Lap Records",
+                    "Weather & Track Temp",
+                    "Sector Benchmarks",
                   ],
                 },
                 {
-                  title: "Documentation",
+                  title: "Resources",
                   links: [
-                    "Publics URLs",
-                    "Social Rooms",
-                    "User Guide",
+                    "API Documentation",
+                    "Dataset Downloads",
+                    "Developer Guides",
                     "Privacy Policy",
                   ],
                 },
@@ -146,7 +156,7 @@ landscape. Get started now and optimize your DeFi strategies.
           </div>
 
           <p className="text-neutral-500 text-sm">
-            &copy; 2024, All Right Reserved
+            &copy; 2025 F1 Data Hub — All rights reserved
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             {[FaTwitter, FaTelegram, FaFacebookF, FaInstagram].map(

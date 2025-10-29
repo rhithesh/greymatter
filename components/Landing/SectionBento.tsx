@@ -8,8 +8,8 @@ import Image from "next/image";
 const features = [
   {
     Icon: FileTextIcon,
-    name: "Real-Time Analytics",
-    description: "Access live data to stay ahead. From tracking multi-chain portfolios to capturing market shifts, Grey Matter gives you the insights you need, when you need them",
+    name: "Best Analytics",
+    description: "analyse race data and simplify it to you in f1 terms as required. ",
     href: "#",
     cta: "Learn more",
     className: "col-span-3 lg:col-span-1",
@@ -19,8 +19,8 @@ const features = [
   },
   {
     Icon: CalendarIcon,
-    name: "Backed by Wormhole",
-    description: "our platform employs multi-layer encryption to safeguard your assets across blockchains. Move funds securely without compromise. Ecosystem and Partnerships",
+    name: "Backed by lot of trainning data",
+    description: "we aldready know that if A happens B is the result so we use that to predict future outcomes.",
     href: "#",
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
@@ -30,8 +30,8 @@ const features = [
   },
   {
     Icon: Shield,
-    name: "Ecosystem and Partnerships",
-    description: "Our partnerships power a thriving DeFi ecosystem. We connect you to top-tier opportunities through innovative collaborations and strong community engagement. Multi-Currency Support.",
+    name: "Robust Security",
+    description: "Store data locally on your mobile/laptop or on cloud.",
     href: "#",
     cta: "Learn more",
     className: "col-span-3 text-wrap lg:col-span-2 ",
@@ -41,8 +41,8 @@ const features = [
   },
   {
     Icon: Wallet,
-    name: "Multi-Currency Support",
-    description: "Seamlessly manage and trade assets across a broad spectrum of blockchains. Grey Matter, supports all major tokens, giving you complete flexibility in your DeFi operations.",
+    name: "fit the User",
+    description: "Weather you are a f1 driver or f1 tech crew based on it we modify the agent response so you understand it better .",
     className: "col-span-3 lg:col-span-1",
     href: "#",
     cta: "Learn more",

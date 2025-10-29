@@ -9,18 +9,18 @@ const FAQSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const faqItems = [
     {
-      title: "What is Grey Matter?",
-      content:"Grey Matter is a next-gen cross-chain yield aggregator, leveraging Wormhole to unlock the best yield opportunities in the DeFi space. Maximize your returns with the power of seamless cross-chain integration.",
+      title: "What is F1 Gen?",
+      content:"F1 Gen is a next-gen vision analytics platfor for f1 drivers and engineers.",
     },
     {
-      title: "How do I start using Grey Matter?",
+      title: "How do I start using F1 Gen?",
       content:
-        "To start using Webtrix, you'll need to create an account on our platform. Once registered, you can connect your cryptocurrency wallet, such as MetaMask, to interact with our services. From there, you can explore various features like providing liquidity to pools, staking tokens, and more.",
+        "To start using you can create an account.",
     },
     {
-      title: "What are the benefits of using Grey Matter?",
+      title: "What are the benefits of using F1 Gen?",
       content:
-        "Webtrix offers several benefits including enhanced security, transparent transactions, reduced fees, and access to a wide range of DeFi services. Our platform is designed to be user-friendly, making it easier for both beginners and experienced users to participate in the blockchain ecosystem.",
+        " Pointless effort in analysing data is save get what you need.",
     },
   ];
 

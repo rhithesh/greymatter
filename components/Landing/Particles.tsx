@@ -17,10 +17,10 @@ export function ParticlesDemo() {
     <>
     <div className="relative pb-10 min-h-screen bg-gradient-to-b  pt-20 from-neutral-950 to-neutral-900 flex  w-full flex-col items-center justify-center overflow-hidden  bg-background md:shadow-xl">
       <span className="pointer-events-none mt-32  whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
-        Features of Grey Matter
+        Features of f1 Gen
       </span>
       <p className="text-base max-w-xl text-center  text-gray-400 font-medium mt-4 mb-12 ">
-      Effortless, secure, and optimized — Grey Matter integrates cutting-edge security, real-time insights, and intuitive design to maximize your cross-chain trading experience.
+      With the magic of agents we provide accurate analysis of post race.
       </p>
 
       <div className=" px-56">
